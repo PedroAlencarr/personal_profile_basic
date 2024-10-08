@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    <title>Minha Página Pessoal</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <menu>
+          <li><a href="#section-home">Home</a></li>
+          <li><a href="#section-work">Work</a></li>
+          <li><a href="#section-aboutme">About Me</a></li>
+          <li><a href="#section-contact">Contact</a></li>
+        </menu>
+      </nav>
+    </header>
+
+    <aside>
+      <h1>Meu Nome</h1>
+      <div class="blured-box">
+        <img width="150px" src="imgs/me.jpeg" alt="Minha foto pessoal" />
+      </div>
+      <p>
+        Meu nome é Pedro Alencar, tenho 26 anos, sou Desenvolvedor de Software
+        Mobile na empresa Khomp e aluno de Sistemas de Informações na
+        Universidade Federal de Santa Catarina.
+      </p>
+    </aside>
+
+    <main>
+      <section id="section-home">
+        <h1>Quem sou eu?</h1>
+        <img id="photo-whoami" src="imgs/me.jpeg" alt="Minha foto." />
+        <p>
+          Meu nome é Pedro Alencar, tenho 26 anos, sou Desenvolvedor de Software
+          Mobile na empresa Khomp e aluno de Sistemas de Informações na
+          Universidade Federal de Santa Catarina. No meu dia a dia eu utilizo
+          Javascript com TypeScript e a biblioteca React Native para o
+          desenvolvimento de aplicativos cross-platform (Android e iOS) que se
+          conectam com dispositivos IoT.
+        </p>
+      </section>
+
+      <section id="section-work">
+        <h1>Desenvolvedor de Software Mobile</h1>
+        <h2>Projetos Recentes</h2>
+        <ul>
+          <li>
+            <b>Projeto 1:</b> Desenvolvimento de aplicativo cross-platform para
+            conexão com dispositivos Iot, o qual tem a capacidade de leitura e
+            escrita das configurações desses dispositivos usando Bluetooth Low
+            Energy e protocolo de comunicação MQTT.
+          </li>
+        </ul>
+      </section>
+
+      <section id="section-aboutme">
+        <h1>About Me</h1>
+        <div class="photo-section">
+          <div>
+            <h2>Formação Acadêmica:</h2>
+            <ul>
+              <li>
+                Bacharelado em Sistemas de Informações - UFSC(em andamento)
+              </li>
+              <li>Bacharelado em Nutrição - Estácio de sá</li>
+            </ul>
+            <h2>Interesses</h2>
+            <ul>
+              <li>Desenvolvimento Web</li>
+              <li>Desenvolvimento Mobile</li>
+              <li>Desenvolvimento Back-end</li>
+              <li>IA e Machine Learning</li>
+            </ul>
+          </div>
+          <img
+            src="imgs/me.jpeg"
+            width="250px"
+            alt="Minha foto com um prêmio."
+          />
+        </div>
+      </section>
+
+      <section id="section-contact">
+        <h1>Contact</h1>
+        <section>
+          <p>Pedro Alencar, Desenvolvedor de Software Mobile</p>
+          <address>
+            <p>Localização: Florianópolis-SC, Brasil</p>
+            <p>Email: pedroalencar.dev@gmail.com</p>
+            <p>Telefone: +55 (48)97070-7070</p>
+          </address>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div><p>&copy; 2024 Pedro Alencar</p></div>
+    </footer>
+  </body>
+</html>
